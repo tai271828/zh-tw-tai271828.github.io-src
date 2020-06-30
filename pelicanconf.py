@@ -20,16 +20,30 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+            ('My Blog (en)', 'https://tai271828.github.io'),
+            ('SOLVCON', 'https://solvcon.net'),
+            ('PyCon TW (repository)', 'https://github.com/pycontw'),
+        )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+            ('LinkedIn', 'https://linkedin.com/in/tai271828'),
+            ('Twitter', 'https://twitter.com/tai271828'),
+            ('Github', 'https://github.com/tai271828'),
+         )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# theme
+THEME = 'themes/backdrop'
+# github issue #386
+PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
+BACKDROP_IMAGE = 'theme/sodtube.png'
+PROFILE_IMAGE = 'theme/tai.png'
+FAVICON = 'theme/tai.png'
+SITE_DESCRIPTION = 'Python, HPC, Ubuntu, Science, and Physics. Mountaineer, climber, pianist, and cellist.'
+EMAIL = 'tai271828@gmail.com'
