@@ -1,0 +1,3 @@
+[submodule "themes/twenty-pelican-html5up"]
+	path = themes/twenty-pelican-html5up
+	url = git@github.com:frankV/twenty-pelican-html5up.git
