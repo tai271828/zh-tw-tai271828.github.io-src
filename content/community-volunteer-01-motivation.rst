@@ -4,7 +4,7 @@
 :date: 2020-06-28 13:52
 :tags: pycon, pycontw, community
 :category: community
-:slug: 社群志工
+:slug: community-volunteer-01-motivation
 
 
 因為有利可圖
