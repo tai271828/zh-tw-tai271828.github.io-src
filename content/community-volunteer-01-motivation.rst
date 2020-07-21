@@ -1,7 +1,9 @@
 下班就很累了，為什麼還願意參與社群研討會的志工活動
 ##################################################
 
+:status: published
 :date: 2020-07-20 20:00
+:modified: 2020-07-21 08:00
 :tags: pycon, pycontw, community
 :category: community
 :slug: community-volunteer-01-motivation
