@@ -1,6 +1,7 @@
 Python 語言與應用 - ABCs 與實例
 ###############################
 
+:status: published
 :date: 2020-08-20 13:00
 :tags: python, cirq, ABCs
 :category: python, quantum computing
