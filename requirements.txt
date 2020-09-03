@@ -1,1 +1,1 @@
-pelican
+pelican==4.2.0
