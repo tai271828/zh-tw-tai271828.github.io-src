@@ -1,9 +1,9 @@
 <title draft template>
 ######################
 
-:date: 2020-07-20 20:00
-:tags: pycon, pycontw, community
-:category: community
+:date: 2020-09-01 08:00
+:tags: <string to fill>, <string to fill>
+:category: <string to fill>
 :slug: <will-show-on-url>
 
 
