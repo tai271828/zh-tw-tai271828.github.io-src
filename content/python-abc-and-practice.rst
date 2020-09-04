@@ -15,7 +15,7 @@ Python 語言與應用 - ABCs 與實例
 
     ABCs, like descriptors and metaclasses, are tools for building frameworks. Therefore, only a very small minority of Python developers can create ABCs without imposing unreasonable limitations and needless work on fellow programmers.
 
-大意就是說除非是要開發框架 (framework) 否則大概不需要用到抽象基本類別 (abstract base class) (我亂自行翻譯的；不知道中文是什麼。)。這似乎也暗示了如果自己不是框架開發者，卻用了 ABC 相關的技巧，大概就是 over-engineering XD
+大意就是說除非是要開發框架 (framework) 否則大概不需要用到抽象基本類別 (abstract base class, ABC) (我亂自行翻譯的；不知道中文是什麼。)。這似乎也暗示了如果自己不是框架開發者，卻用了 ABC 相關的技巧，大概就是 over-engineering XD
 
 
 不管我就是要用用看
