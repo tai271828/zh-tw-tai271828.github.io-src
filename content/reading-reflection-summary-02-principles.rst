@@ -1,6 +1,7 @@
 閱讀筆記 - Ray Dailio 的「原則」 "Principles"
 #############################################
 
+:status: published
 :date: 2020-09-19 10:00
 :tags: reading
 :category: reading
