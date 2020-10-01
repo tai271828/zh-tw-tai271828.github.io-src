@@ -15,3 +15,6 @@
 福利
 
 細節
+
+
+會議記錄  http://ubottu.com/meetingology/logs/ubuntu-meeting/2020/ubuntu-meeting.2020-10-01-20.14.moin.txt
