@@ -12,7 +12,7 @@ btw 關於 mailing list 文化....  (我下次要把這段寫成 blog 才不用�
 
 
 例如說， python development mailing list [1] 可以說是最正式的「全球  python 社群對於開發上意見交換管道」
-當代有很多各種溝通工具 (email, telegram, slack, discord ...etc.)、各種論壇 (discouse, stackover flow ...etc.)
+當代有很多各種溝通工具 (email, telegram, slack, discord ...etc.)、各種論壇 (discourse, stackoverflow ...etc.)
 但最經典也歷久不衰的應該還是 mailing list archive 的型式
 
 一直沒辦法被取代的原因有：
@@ -33,8 +33,11 @@ btw 關於 mailing list 文化....  (我下次要把這段寫成 blog 才不用�
 一般運作方式會是：
 
 1. 你去「訂閱」這個 mailing list
+
 2. 之後有人發信到 python-dev@python.org 到你也會收到
-3. 根據每個 mailing list 管理政策的不同，或許你的信也可以發到 python-dev@python.org 直接給有訂閱的人看（所以你其實可以用這個 email address 跟 Guildo 公開叫囂）（誤）      有些有允許訂閱者直接發信，有需要許可才可以開始發 ...etc.
+
+3. 根據每個 mailing list 管理政策的不同，或許你的信也可以發到 python-dev@python.org 直接給有訂閱的人看（所以你其實可以用這個 email address 跟 Guido 公開叫囂）（誤）      有些有允許訂閱者直接發信，有需要許可才可以開始發 ...etc.
+
 pycontw mailing list 運作方式稍微更不透明一點：要被允許才能訂閱
 
 
@@ -43,3 +46,10 @@ pycontw mailing list 運作方式稍微更不透明一點：要被允許才能�
 某方面來說會訂閱這個 mailing list 的人可以說是   真。台灣 Python 年會社群成員，這裡面有九成以上的人都曾經或還是 PyCon TW 志工
 所以才會說   比較基本、關鍵的共識、會議記錄、提案，都可以考慮發到   pycontw@googlegroups.com
 每年年會的各 team leads 理當也要訂閱這個 mailing list
+
+
+
+
+mailing list archive 相當於第一手資訊；做科學研究大概都要看論文這種第一手資訊。想了解某些工程決定，爬 mailing list 往往對於了解脈絡有幫助，不用再去讀第二甚至三手資訊，告訴你為什麼當初這個東西要這樣用而不是那樣用
+
+如果覺得自己最核心的專業，常常要靠   xx news  （基本上就是第二第三手資料惹）  才能跟上最新討論，這表示自己可能還不夠專業 XDDD   去訂閱核心社群的 mailing list 多少會有幫助
