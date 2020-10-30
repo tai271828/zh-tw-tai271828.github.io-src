@@ -54,7 +54,7 @@
 
 High Output Management
 ======================
-在閱讀這本著作時常常讓我想到前陣子才讀完的 Andrew Grove 著作的經典管理書籍 `High Output Management 葛洛夫給經理人的第一課 <https://readmoo.com/book/210106880000101>`。
+在閱讀這本著作時常常讓我想到前陣子才讀完的 Andrew Grove 著作的經典管理書籍 `High Output Management 葛洛夫給經理人的第一課 <https://readmoo.com/book/210106880000101>`_ 。
 "Principles" 偏向抽象指導方針， "High Output Management" 則是偏向方法論，沒有原則的人或許還是可以照著做。
 
 俄國大文豪托爾斯泰的小說「安娜·卡列尼娜 (Анна Каренина)」中有句名言：「幸福的家庭都是相似的，不幸的家庭各有各的不幸」，
@@ -70,7 +70,7 @@ Trillion Dollar Coach
 =====================
 
 另外一個小地方是在本書附錄中第一個小 tip 是提及「教練」這種角色存在的必要，
-這剛好也跟前陣子自己讀完的 "Trillion Dollar Coach <https://tai271828.netlify.app/reading-reflection-summary-01-coach.html>" 得以互相參照。
+這剛好也跟前陣子自己讀完的 `Trillion Dollar Coach <https://tai271828.netlify.app/reading-reflection-summary-01-coach.html>`_ 得以互相參照。
 
 
 總之是一本小推的工具書
