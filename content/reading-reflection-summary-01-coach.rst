@@ -1,9 +1,10 @@
-讀書心得 - 「教練」與「人生教練」
+閱讀筆記 - 「教練」與「人生教練」
 #################################
 
 :status: published
 :date: 2020-09-08 11:00
 :modified: 2020-09-10 18:00
+:modified: 2020-09-19 11:00
 :tags: reading
 :category: reading
 :slug: reading-reflection-summary-01-coach
