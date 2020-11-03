@@ -1,0 +1,3 @@
+content: CC-BY-SA-3.0-TW-or-later
+
+The other part of this repository is built by Pelican and cutomized theme provided by the community. Please refer to their own licenses.
