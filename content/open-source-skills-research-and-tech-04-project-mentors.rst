@@ -1,5 +1,5 @@
-open-source-skills-research-and-tech-04-project-mentors.rst
-##################################
+open-source-skills-research-and-tech-04-project-mentors
+#######################################################
 
 :date: 2020-10-30 14:00
 :tags: open source, code reading, bash

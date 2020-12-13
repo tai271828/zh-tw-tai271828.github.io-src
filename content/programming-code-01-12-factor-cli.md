@@ -1,4 +1,5 @@
 Title: 設計命令列應用程式 - Design CLI Command
+Status: published
 Date: 2020-12-13 19:00
 Tags: programming, design pattern
 Category: programming
