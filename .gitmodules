@@ -1,3 +1,4 @@
 [submodule "themes/voce"]
 	path = themes/voce
-	url = git@github.com:tai271828/voce.git
+	url = https://github.com/tai271828/voce.git
+	branch = dev
