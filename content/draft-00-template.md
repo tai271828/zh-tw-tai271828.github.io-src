@@ -4,7 +4,6 @@ Tags: template, <string to fill>, <string to fill>
 Category: <string to fill>
 Slug: <will-show-on-url-markdown-template>
 
-<This head is important to make the following contents explicit>
-****************************************************************
+# <This head is important to make the following contents explicit>
 
 foo-bar
