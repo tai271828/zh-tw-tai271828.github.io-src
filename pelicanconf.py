@@ -6,7 +6,7 @@ import os
 AUTHOR = 'tai271828'
 SITENAME = 'tai 的網誌'
 SITEURL = 'tai271828.netlify.app'
-USER_LOGO_URL = 'images/tai.png'
+USER_LOGO_URL = 'images/LTconsulting-v1-150x150.png'
 INDEX_TITLE = "tai's blog"
 INDEX_DESC = 'Python, HPC, Ubuntu, Science, and Physics. Mountaineer, climber, pianist, and cellist.'
 
