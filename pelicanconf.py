@@ -10,6 +10,10 @@ USER_LOGO_URL = 'images/LTconsulting-v1-150x150.png'
 INDEX_TITLE = "tai's blog"
 INDEX_DESC = 'Python, HPC, Ubuntu, Science, and Physics. Mountaineer, climber, pianist, and cellist.'
 
+# GTM ID is optional
+# If you don't use GTM, it is ok to leave it as an empty string.
+GTM_ID = "GTM-K5KVL4G"
+
 TIMEZONE = 'Europe/Amsterdam'
 
 DEFAULT_LANG = u'en'
