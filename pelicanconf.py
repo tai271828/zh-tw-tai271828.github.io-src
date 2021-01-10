@@ -18,6 +18,7 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 THEME = "themes/voce"
 
 PLUGIN_PATHS = ["plugins", os.path.join(THEME, "plugins")]
+PLUGINS = ["summary"]
 
 LOAD_CONTENT_CACHE = False
 SLUGIFY_SOURCE = 'basename'
@@ -59,7 +60,11 @@ OUTPUT_RETENTION = [".git"]
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
-SUMMARY_MAX_LENGTH = 50
+# use less max length for zh blog because for none-latin or cjk, one sentance
+# will be treated as "a word" so the summary will be too long
+# refer to the discussion thread of pelican issue #1180
+# https://github.com/getpelican/pelican/issues/1180
+SUMMARY_MAX_LENGTH = 2
 
 ARCHIVES_URL = "archives.html"
 ARCHIVES_SAVE_AS = 'archives.html'

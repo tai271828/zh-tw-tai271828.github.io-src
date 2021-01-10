@@ -4,6 +4,7 @@ Date: 2020-12-13 19:00
 Tags: programming, design pattern
 Category: programming
 Slug: programming-code-01-12-factor-cli
+Summary: 幾個設計 CLI application 可以參考的原則；順便聊聊 CLI application 的價值。
 
 
 ![boardroom-meeting-suggestion-meme-awk.png]({static}/images/boardroom-meeting-suggestion-meme-awk.png "boardroom meeting suggestion meme awk")

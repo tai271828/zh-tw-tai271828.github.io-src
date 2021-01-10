@@ -4,10 +4,12 @@ Date: 2021-1-9 11:00
 Tags: SEO, GTM, GA
 Category: SEO
 Slug: seo-tools-01-gtm-ga-gsearch-console
+<!-- Summary: 使用 Google Tag Manager 的時候一定要搞懂 container 、 tag 與 variable 這三個名詞的意思。 -->
 
 
 # 為什麼要做這些設定
 理由百百種，本質不外乎是「資訊投放者」想要取得「資訊接受者」的反饋。下面舉兩個常見例子。
+
 
 
 ## 想知道讀者群是誰的 Blog 作者
@@ -108,3 +110,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 ## 其他容易混淆的概念與詞彙
 html tag 與 GTM 的 tag 不是指同一件事情；雖然命名上可能是來自「在 html 插入一段特別的 html tag 來實做 GTM」的關係。
+
+
+# Takeawy
+<!-- PELICAN_BEGIN_SUMMARY --> 使用 Google Tag Manager 的時候一定要搞懂 container 、 tag 與 variable 這三個名詞的意思。使用 Google Analysis 的時候則是一定要搞懂 property 、 view 、 tracing ID 與 measurement ID 這幾個名詞。 <!-- PELICAN_END_SUMMARY --> 了解的話對於整個操作會順手很多。
