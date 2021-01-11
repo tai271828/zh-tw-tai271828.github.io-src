@@ -1,3 +1,5 @@
 pelican
 Markdown
 beautifulsoup4
+pelican-embed-svg
+lxml

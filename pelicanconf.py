@@ -2,11 +2,12 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import os
+import pelican_embed_svg
 
 AUTHOR = 'tai271828'
 SITENAME = 'tai 的網誌'
 SITEURL = 'tai271828.netlify.app'
-USER_LOGO_URL = 'images/LTconsulting-v1-150x150.png'
+USER_LOGO_URL = 'images/LTconsulting-v3-150x150.svg'
 INDEX_TITLE = "tai's blog"
 INDEX_DESC = 'Python, HPC, Ubuntu, Science, and Physics. Mountaineer, climber, pianist, and cellist.'
 
@@ -18,7 +19,7 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 THEME = "themes/voce"
 
 PLUGIN_PATHS = ["plugins", os.path.join(THEME, "plugins")]
-PLUGINS = ["summary"]
+PLUGINS = ["summary", pelican_embed_svg]
 
 LOAD_CONTENT_CACHE = False
 SLUGIFY_SOURCE = 'basename'
