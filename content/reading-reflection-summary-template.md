@@ -6,4 +6,5 @@ Slug: reading-reflection-summary-00-foo-bar
 
 # 一句話摘要整本書
 
-敝人推薦指數： x/10
+- 完整中英文書名、作者
+- 我個人推薦指數： x/10
