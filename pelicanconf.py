@@ -80,6 +80,18 @@ AUTHORS_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
+# Markdown extension
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.extra": {},
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.nl2br": {},
+        "markdown.extensions.toc": {'title': 'Table of contents:'},
+        "markdown_del_ins": {}
+    },
+    "output_format": "html5",
+}
+
 DEFAULT_METADATA = {
     'status': 'draft',
 }
