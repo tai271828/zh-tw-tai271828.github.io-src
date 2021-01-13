@@ -28,6 +28,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 ## Google Tag Manager (GTM) 的核心概念與詞彙
 使用 Google Tag Manager (GTM) 的時候，三個最重要的名詞，建議一定要隨時清楚知道自己在設定什麼：
+
   - container
     - 裝著各種 tag 和 variable 的設定集合，所以使用 "container"/容器 這個名詞。
     - 中文常常聽到「埋 tag」其實是指「透過在網站放入 container，所以很多裝在 container 的 tag 也被埋進網站裡了」。
@@ -40,6 +41,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
     - 給事先定義好的 tag type 與對應的蒐集資訊行為命名，這樣就可以在不同的 container 中重複使用，避免設定過於繁瑣。
 
 其他比較能夠望文生義的名詞像是：
+
   - workspace
     - 工作區，基本上就是 container 的 configuration。GTM 另外會幫每個 configuration 做版本控制。
     - 每個 configuration 要 submit 了之後才會生效，所以第一次使用 preview 測試前要記得做第一次提交。
@@ -48,7 +50,9 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 
 ### Google Tag Manager (GTM) 設定流程
+
 整個 GTM 使用流程基本上可以想成「把貨櫃/容器/container放進網站，但貨櫃裡面有什麼東西隨時可以變動」。使用 GTM 的流程與對應權限義務細節如下：
+
   - gmail 帳號賦予自己使用 GTM 權限
   - 一個 gmail 帳號可以開好幾個 GTM account。注意這裡的 account 比較像是 "管理群組名稱"，不要跟自己的 gmail account 混淆了。
   - 一個 GTM account 會對應一個 workspace，取得 workspace 之後就可以開始透過 variable 組合各種 tag and trigger；variable 的設定只是輔助、方便使用者設定。一開始完全沒有 variable 可用的情況下還是必須至少設定一組。
@@ -57,6 +61,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 
 ### 檢查 GTM 設定是否正確
+
 - 使用 preview 功能
 - 使用 chrome plugin "Google Tag Assistant"
   - (稍微有點不太確定) 如果 GA property (名詞意義見下方 GA session) 是透過 GTM 放進去， Tag Assistant 會顯示 GA propery 對應到的 (html) tag 是「藍色」（ tag 生效但不保證未來也會正常工作）；但 GTM tag 本身則是「綠色」（正常工作）。
@@ -67,6 +72,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 在最一開始要稍微留意一下 2020 年底 Google Analysis 推出 Google Analysis 4 (GA4 or GA 4)，視為原本 Google Universal Analysis (UA) 下一代的產品，相當於原本只針對 web 分析的 UA 另外自動整合好行動裝置分析的功能。在這時間點之後建立的 property (名詞意義見下方說明)，預設 type 是 GA 4，不過使用者可以選擇 UA。**畢竟是剛開始的新功能，截至下筆本文時不時聽到有使用者反應 GA4 與 UA 兩者行為不太一致；所以建議在埋 property 的時候兩個都要裝到網站上同時參考兩者結果。**
 
 使用 Google Analysis (GA) 的時候，有兩個重要的名詞：
+
   - property or app
     - 一個分析的「錨點」，是放在網站中執行分析時的最小執行單元。把一個 property 放進一個網站之後就可以開始分析網站了。
     - property 可以透過 GTM container 來放，或是自己直接放進網站。
@@ -83,6 +89,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 ### Google Analysis (GA) 設定流程
 設定流程大概是：
+
   - 建立新的 property；建立的時候就必須決定是 property type 是 GA 4 還是 UA (universal analysis)。
     - 也可以選「都建立」，這樣 GA4 property 會自動加上 suffix "- GA 4"
     - admin dashboard 中可以直接透過 property ID 看出兩者差異；如果是 UA type ，對應的 property ID 會有 prefix "UA-" (同時也是對應的 tracking ID)。 GA 4 對應的 ID 則是純整數 (要另外進去翻對應的 meansurement ID，有點小麻煩)。
@@ -97,6 +104,7 @@ Slug: seo-tools-01-gtm-ga-gsearch-console
 
 # 其他更多相關資訊
 ## 實做一瞥
+
 - GTM 是在 html 中插入程式碼來取得對應 GTM ID (容器 ID) 的內容
   - head 中透過 javascript 呼叫
   - body 中透過 no script iframe
