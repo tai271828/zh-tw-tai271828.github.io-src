@@ -3,3 +3,4 @@ Markdown
 beautifulsoup4
 pelican-embed-svg
 lxml
+markdown-del-ins
